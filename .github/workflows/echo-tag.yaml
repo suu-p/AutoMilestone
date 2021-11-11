@@ -1,4 +1,4 @@
-name: Create Milestone
+name: Echo Tag
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - 'v*.*.*'
 
 jobs:
-  set-milestone:
+  echo-tag:
     runs-on: ubuntu-latest
 
     steps:
