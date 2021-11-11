@@ -25,3 +25,5 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
 ```
+
+## Tag 정보로 Milestone 생성하기
